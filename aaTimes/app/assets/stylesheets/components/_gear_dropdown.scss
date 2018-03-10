@@ -1,0 +1,9 @@
+// Use the gear_dropdown.png screenshot as a style guide
+.edition a:hover {
+  background-color: $gray;
+}
+
+.help a:hover {
+  text-decoration: underline;
+  text-decoration-color: $blue;
+}

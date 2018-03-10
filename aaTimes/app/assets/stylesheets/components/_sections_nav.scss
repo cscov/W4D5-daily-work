@@ -1,0 +1,14 @@
+a:hover {
+  background-color: $gray;
+  text-decoration: underline;
+  // text-decoration-color: #000;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  font-size: 9px;
+  margin: 0px;
+}

@@ -1,0 +1,109 @@
+.masthead {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 2px solid black;
+	position: relative;
+	border-top: 1px solid $light-gray;
+}
+
+.language-nav {
+	position: absolute;
+	top: -16px;
+	left: calc(50% - (177.78px/2));
+	background: white;
+	border: 1px solid $light-gray;
+	border-bottom: none;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.language-nav a {
+	margin: 0 5px;
+	text-transform: uppercase;
+	font-family: $sans-serif;
+	font-size: 8px;
+	color: $dark-gray;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.ds:hover {
+	background-color: $gray;
+}
+.ds {
+	padding-right: 10px;
+}
+.language-nav ul {
+	display: flex;
+	font-weight: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.language-nav ul li:first-of-type {
+	font-weight: bold;
+}
+
+.logo {
+	max-width: 400px;
+	margin-top: 10px;
+}
+
+.masthead-links {
+	display: flex;
+	font-family: $sans-serif;
+	font-size: 11px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	align-items: baseline;
+}
+
+.masthead-links li {
+	margin-left: 10px;
+	margin-right: 10px;
+
+	border-right: 1px solid $light-gray;
+}
+
+.masthead-links button {
+	background: none;
+	padding: 0px;
+	color: #000;
+	font-weight: normal;
+	border: none;
+}
+
+.masthead-links button:hover {
+	background-color: $lightest-gray;
+}
+
+.masthead-links a,
+.masthead-links button,
+.masthead-links time,
+.masthead-links li {
+	margin-right: 10px;
+}
+
+.masthead-links a:hover {
+	text-decoration: underline;
+}
+
+.masthead-links i {
+	margin-right: 5px;
+}
+
+.masthead-links strong {
+	color: green;
+	padding-right: 0px;
+	margin-right: 0px;
+}
+
+.masthead-links strong:hover {
+	background-color: $gray;
+}
+
+.fa-newspaper {
+	color: #000;
+}

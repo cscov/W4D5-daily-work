@@ -1,0 +1,61 @@
+.main-nav {
+display: flex;
+justify-content: space-between;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+  align-items: baseline;
+}
+
+.left-nav > ul > li {
+font-family: $serif;
+font-size: 11px;
+text-transform: capitalize;
+}
+
+.right-nav > ul > li {
+  font-family: $sans-serif;
+  font-size: 9px;
+  text-transform: capitalize;
+
+}
+
+.right-nav > ul > li:last-of-type {
+
+}
+
+.left-nav > ul > li:hover {
+  background-color: $light-gray;
+  span{
+    background-color: $light-gray;
+  }
+}
+
+// .right-nav > ul > li button:hover {
+//   background-color: $dark-blue;
+//   border-color: $darkest-blue;
+//   padding: 0;
+// 	border-radius: 3px;
+// }
+
+#gear {
+  font-size: 16px;
+}
+
+.right-nav > ul #gear:hover {
+  background-color: $light-gray;
+
+}
+
+.left-nav span {
+
+}
+
+
+.right-nav i {
+
+}
